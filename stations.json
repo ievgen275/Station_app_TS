@@ -1,0 +1,52 @@
+[
+  {
+    "id": 2,
+    "address": "1234 Elm Street. Springfield",
+    "status": false
+  },
+  {
+    "id": 3,
+    "address": "777 Pine Avenue. Lakeside",
+    "status": true
+  },
+  {
+    "id": 4,
+    "address": "456 Oak Lane. Riverdale",
+    "status": false
+  },
+  {
+    "id": 5,
+    "address": "1010 Maple Road. Hillcrest",
+    "status": true
+  },
+  {
+    "id": 6,
+    "address": "2345 Cedar Court. Brookside",
+    "status": false
+  },
+  {
+    "id": 7,
+    "address": "891 Birch Street. Lakeview",
+    "status": true
+  },
+  {
+    "id": 8,
+    "address": "333 Pine Avenue. Sunset Hills",
+    "status": false
+  },
+  {
+    "id": 9,
+    "address": "678 Walnut Drive. Green Valley",
+    "status": true
+  },
+  {
+    "id": 10,
+    "address": "444 Ash Street. Riverside",
+    "status": false
+  },
+  {
+    "address": "Grushevskogo 2",
+    "status": true,
+    "id": 11
+  }
+]
