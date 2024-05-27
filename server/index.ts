@@ -1,22 +1,14 @@
 import express, { Express, Request, Response } from "express";
 import cors from 'cors';
 import * as fs from 'fs';
+
+import { Station, StationDTO } from './interfaceMod';
+
 const port = 8000;
 const app: Express = express();
 
 app.use(express.json());
 app.use(cors());
-
-interface Station {
-   address: string,
-   status: boolean
-}
-
-interface StationDTO {
-   id: number,
-   address: string,
-   status: boolean
-}
 
 let lastTemperatureValue: number = 36;
 let lastDoseRateValue: number = 5;
